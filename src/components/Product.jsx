@@ -1,5 +1,4 @@
 import React from "react";
-
 const Product = () => {
   // TODO: Remove below const and instead import them from chakra
   const Text = () => <div />;
@@ -11,6 +10,7 @@ const Product = () => {
   const TagLabel = () => <div />;
   return (
     <Stack data-cy="product">
+    <h1>Jitendra</h1>
       <Image data-cy="product-image" />
       <Text data-cy="product-category"></Text>
       <Tag>
@@ -23,3 +23,4 @@ const Product = () => {
 };
 
 export default Product;
+
